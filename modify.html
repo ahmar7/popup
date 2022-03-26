@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="modify.css">
+</head>
+
+<body>
+    <div class="approvalpopup" id="popup-1">
+        <div class="overlay"></div>
+        <div class="content">
+            <div class="close-btn" onclick="togglePopup()">×</div>
+            <h1 class="approvaltitle">User Approval</h1>
+            <p class="approvalnote">
+                Your account has been added to the approval section.
+                You will be notified as an email as soon as your account successfully approved by the admin.
+            </p>
+        </div>
+    </div>
+
+    <button class="signupbtn" onclick="togglePopup()"> Sign up</button>
+</body>
+<script src="app.js"></script>
+
+</html>
